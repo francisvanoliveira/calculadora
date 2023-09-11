@@ -1,5 +1,6 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css);
 @import url(path/to/font-awesome/css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Open+Sans&family=Silkscreen&display=swap');
 
 * {
     margin: 0;
@@ -67,8 +68,8 @@ footer{
     right: 0;
     height: auto;
     width: auto;
-    font-family: "Open Sans";
-    padding-top: 40px;
+    font-family: 'Open Sans', sans-serif;;
+    padding-top: 150px;
     color: #fff;
 }
 .footer-content{
