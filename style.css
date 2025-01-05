@@ -1,6 +1,6 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css);
 @import url(path/to/font-awesome/css/font-awesome.min.css);
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Open+Sans&family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap');
 
 * {
     margin: 0;
@@ -9,7 +9,7 @@
 }
 body{
     margin: 2rem;
-    background: #000;
+    background: #1b1f22;
 }
 
 main{
@@ -27,7 +27,12 @@ h1 {
     color: white;
     margin-top: 3rem;
     margin-bottom: 5rem;
-    font-family: monospace;
+    font-family: "Poppins", sans-serif;
+}
+
+img {
+    width: 300px; /* Define a largura da imagem */
+    height: auto; /* Mantém a proporção da altura */
 }
 
 #calculadora, #resultado{
@@ -35,10 +40,11 @@ h1 {
     box-sizing: border-box;
     padding: 1.25rem;
     margin: 0px;
-    background-color: #282a2d;
+    background-color: #1A2A33;
+    border-radius: 5px;;
     color: #e3e7e9;
     font-size: 1.25rem;
-    font-family: monospace;
+    font-family: "Poppins", sans-serif;
 }
 
 #calculadora{
@@ -68,8 +74,8 @@ footer{
     right: 0;
     height: auto;
     width: auto;
-    font-family: 'Open Sans', sans-serif;;
-    padding-top: 150px;
+    font-family: "Poppins", sans-serif;
+    padding-top: 100px;
     color: #fff;
 }
 .footer-content{
@@ -79,10 +85,7 @@ footer{
     flex-direction: column;
     text-align: center;
 }
-.footer-content h3{
-    font-size: 1.5rem;
-    font-weight: 400;
-}
+
 .footer-content p{
     max-width: 500px;
     margin: 10px auto;
@@ -118,7 +121,7 @@ footer{
     text-align: center;
 }
 .footer-bottom p{
-    font-size: 14px;
+    font-size: 16px;
     word-spacing: 2px;
 }
 .footer-bottom a, .footer-content a {
